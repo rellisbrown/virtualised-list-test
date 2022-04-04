@@ -9,7 +9,9 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
+    "styled-components": "^5.3.5",
+    "web-vitals": "^2.1.4",
+    "kill-port": "^1.6.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,11 +19,15 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "2.5.1"
   },
   "browserslist": {
     "production": [
@@ -36,3 +42,4 @@
     ]
   }
 }
+

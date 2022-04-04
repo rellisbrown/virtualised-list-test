@@ -1,0 +1,40 @@
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+    'jest/globals': true,
+  },
+  extends: ['plugin:react/recommended', 'airbnb', 'airbnb/hooks'],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 12,
+    sourceType: 'module',
+  },
+  plugins: ['jest', 'react'],
+  rules: {
+    'react/jsx-max-props-per-line': ['error', { maximum: 1 }],
+    'react/react-in-jsx-scope': 'off',
+    'react/prop-types': 'off',
+    'no-restricted-syntax': 'off',
+    'no-unused-vars': 'warn',
+    'max-len': 'off',
+    'guard-for-in': 'off',
+    'no-param-reassign': 'off',
+    'linebreak-style': ['error', 'windows'],
+    'react/jsx-max-props-per-line': ['off'],
+    'comma-dangle': 'off',
+    'implicit-arrow-linebreak': 'off',
+    'object-curly-newline': 'off',
+    'react/jsx-curly-newline': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'operator-linebreak': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/destructuring-assignment': 'warn',
+    'react/jsx-indent': 'off',
+    'indent': 'off',
+    'no-confusing-arrow': 'warn',
+    'function-paren-newline': 'warn'
+  },
+};
