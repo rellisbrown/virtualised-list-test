@@ -1,0 +1,38 @@
+[
+ {
+   "category": "2019 BMW Z4 Roadster",
+   "Speed": 6.7,
+   "Handling": 6,
+   "Acceleration": 5.6,
+   "Braking": 4.4,
+   "Top Speed": 182.6,
+   "0-60": 4.4,
+   "g-Force": 0.99,
+   "Horse Power": 382,
+   "Weight": 3252
+ },
+ {
+   "category": "2017 Aston Martin Vulcan AMR Pro",
+   "Speed": 7.7,
+   "Handling": 9.6,
+   "Acceleration": 6.5,
+   "Braking": 10,
+   "Top Speed": 211,
+   "0-60": 3,
+   "g-Force": 1.73,
+   "Horse Power": 820,
+   "Weight": 2998
+ },
+ {
+   "category": "2011 Bugatti Veyron Super Sport",
+   "Speed": 9.9,
+   "Handling": 7.9,
+   "Acceleration": 10,
+   "Braking": 8.6,
+   "Top Speed": 268.1,
+   "0-60": 2.4,
+   "g-Force": 1.26,
+   "Horse Power": 1183,
+   "Weight": 4044
+ }
+]

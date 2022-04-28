@@ -1,25 +1,30 @@
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import VirtuosoTest from './components/VirtuosoTest';
+import ManualTest from './components/ManualTest';
+import ManualTestPadding from './components/manualTestPadding/ManualTestPadding';
+import QlikTest from './components/qlikTest/QlikTest';
+import { QlikContextProvider } from './utils/qlik/qlikContext';
+import RWAChart from './components/RWAChart/RWAChart';
+import RadarChart from './components/radarChart/RadarChart';
 
 function App() {
+  const [count, setCount] = useState(0);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Reactssss
-        </a>
-      </header>
-    </div>
+    <QlikContextProvider>
+      <div className="App">
+        {/* <VirtuosoTest /> */}
+        {/*  <ManualTest /> */}
+        {/* <ManualTestPadding /> */}
+        {/*  <QlikTest /> */}
+        {/* <RWAChart count={count} setCount={setCount} /> */}
+        <RadarChart />
+      </div>
+    </QlikContextProvider>
   );
 }
+
+App.whyDidYouRender = true;
 
 export default App;

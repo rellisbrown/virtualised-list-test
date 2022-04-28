@@ -1,0 +1,29 @@
+[
+  {
+    "category": "Car 1",
+    "Speediness": 6.7,
+    "Acceleration (s)": 5.6,
+    "Top Speed (MPH)": 182.6,
+    "g-Force (g)": 0.99,
+    "Horse Power": 382,
+    "Weight (pounds)": 3252
+  },
+  {
+    "category": "Car 2",
+    "Speediness": 7.7,
+    "Acceleration (s)": 6.5,
+    "Top Speed (MPH)": 211,
+    "g-Force (g)": 1.73,
+    "Horse Power": 820,
+    "Weight (pounds)": 2998
+  },
+  {
+    "category": "Car 3",
+    "Speediness": 9.9,
+    "Acceleration (s)": 10,
+    "Top Speed (MPH)": 268.1,
+    "g-Force (g)": 1.26,
+    "Horse Power": 1183,
+    "Weight (pounds)": 4044
+  }
+]
